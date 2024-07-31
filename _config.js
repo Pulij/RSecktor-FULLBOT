@@ -1,7 +1,7 @@
 require('dotenv').config();
 const fs = require('fs-extra');
 
-global.MONGODB = process.env.MONGODB || "mongodb+srv://user1:<password>@test.jyczdo6.mongodb.net/?retryWrites=true&w=majority&appName=test"
+global.MONGODB = process.env.MONGODB || "mongodb+srv://user1:EGG2AG3T@test.jyczdo6.mongodb.net/?retryWrites=true&w=majority&appName=test"
 global.USE_PAIRING_CODE = process.env.USE_PAIRING_CODE === 'true'
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || "https://raw.githubusercontent.com/SecktorBot/Brandimages/main/logos/SocialLogo%201.png"
 global.DEV = process.env.DEV === 'true'
